@@ -1,2 +1,133 @@
-# Cynthia-omusundi
-My portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cynthia Omusundi – Tech + Business</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #764ba2;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      background: #8d4933;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 8px;
+      color: white;
+      font-weight: 500;
+      transition: transform 0.2s;
+    }
+
+    ul li:hover {
+      transform: scale(1.05);
+      background: #ff8a65;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      border-radius: 15px;
+      color: white;
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+      margin: 5px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #764ba2;
+      color: white;
+      margin-top: 40px;
+      border-radius: 15px 15px 0 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cynthia Omusundi – Tech + Business</h1>
+    <p>A passionate BBIT graduate, blending technology with business to solve real-world problems.</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I studied at Strathmore University and earned a degree in BBIT. I’m driven by the desire to understand how technology can improve business productivity. I'm always ready to learn and consider myself resilient, adaptable, and curious about new trends in the tech world.</p>
+    <p><strong>I did two internships</strong>
+        <li>At nema for two months and mastered the ability to network around an office</li>
+        <li> At Invest and grow sacco and mastered communication skills</li>
+    </p>
+    <p> I worked at NCBA(LOOP) for business for three months as a sales agent</p>
+    <p>I managed a Bar and restaurant for almost a year in Donholm</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>🌐 Project 1 – Database creation</li>
+      <li>📊 Project 2 – Late blight</li>
+      <li>💻 Project 3 – websites creation  </li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: cynthiaomusundi@gmail.com</p>
+    <p>Phone: +254 769 657 335</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Cynthia Omusundi | Tech + Business</p>
+  </footer>
+
+</body>
+</html>
